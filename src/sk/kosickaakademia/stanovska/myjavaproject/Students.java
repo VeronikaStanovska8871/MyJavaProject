@@ -8,7 +8,7 @@ public class Students {
     private int age;
     private double height;
     private int weight;
-    int students;
+    private String Grades[] grades;
 
     public Students(String fname, String lname) {
         this.fname = fname;
@@ -41,12 +41,9 @@ public class Students {
         return weight;
     }
 
-    public void getListOfStudents() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Meno študenta: ");
-        students = sc.nextInt();
-        for (int i=0; i>students; i++) {
-            System.out.println(students);
+    public void getListOfHobbies() {
+        for (int i=0; i>grades; i++) {
+            System.out.println(grades);
         }
     }
 }
